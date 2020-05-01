@@ -2,5 +2,9 @@
 
 int main() {
     int i = 1;
-    printf("%d\n", i)
+    while(1) {
+        i=i*2;
+        if(i<0) break;
+    }
+    printf("%d\n", i-1);
 }
